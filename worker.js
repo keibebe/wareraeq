@@ -14,7 +14,7 @@ const FALLBACK = "https://api2.warera.io";
 // Only allow your own GitHub Pages domain (and localhost for dev).
 // Add or change this to match YOUR actual Pages URL.
 const ALLOWED_ORIGINS = [
-  "https://YOUR_GITHUB_USERNAME.github.io",   // ← change this
+  "https://keibebe.github.io",   // ← change this
   "http://localhost",
   "http://127.0.0.1",
 ];
