@@ -8,7 +8,7 @@
  * Free tier: 100,000 requests/day — plenty for personal use.
  */
 
-const UPSTREAM = "https://gateway.warerastats.io";
+const UPSTREAM = "https://gateway.warerastats.io/trpc/";
 const FALLBACK = "https://api2.warera.io";
 
 // Only allow your own GitHub Pages domain (and localhost for dev).
