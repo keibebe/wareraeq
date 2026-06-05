@@ -514,8 +514,7 @@
             <div class="filter-bar">
                 <button class="filter-btn active" data-filter="all" onclick="filterEquipment('all')">All</button>
                 <button class="filter-btn" data-filter="product" onclick="filterEquipment('product')">Products</button>
-                <button class="filter-btn" data-filter="equipment" onclick="filterEquipment('equipment')">Equipment</button>
-                <button class="filter-btn" data-filter="weapon" onclick="filterEquipment('weapon')">Weapons</button>
+                <button class="filter-btn" data-filter="resource" onclick="filterEquipment('resource')">Raw Resources</button>
                 <button class="filter-btn" data-filter="ammo" onclick="filterEquipment('ammo')">Ammo</button>
             </div>
             
@@ -591,7 +590,7 @@
             },
             {
                 name: 'Light Ammo',
-                type: 'product',
+                type: 'ammo',
                 usage: 'ammo',
                 rarity: 'uncommon',
                 productionNeeds: { lead: 1 },
@@ -599,7 +598,7 @@
             },
             {
                 name: 'Ammo',
-                type: 'product',
+                type: 'ammo',
                 usage: 'ammo',
                 rarity: 'rare',
                 productionNeeds: { lead: 4 },
@@ -615,7 +614,7 @@
             },
             {
                 name: 'Heavy Ammo',
-                type: 'product',
+                type: 'ammo',
                 usage: 'ammo',
                 rarity: 'epic',
                 productionNeeds: { lead: 16 },
